@@ -1,0 +1,225 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #FFEDF5;
+}
+
+.container .c_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 68.5%;
+  margin: 0 auto;
+}
+
+.container .c_header .ch_logo .chl_img {
+  width: 73px;
+  height: 50px;
+}
+
+.container .c_header .ch_toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .c_header .ch_toolbar .cht_img {
+  width: 13px;
+  height: 10px;
+  margin-right: 4px;
+}
+
+.container .c_header .ch_toolbar .cht_home {
+  margin-right: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #393939;
+}
+
+.container .c_header .ch_toolbar .cht_faq {
+  margin-right: 43px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #393939;
+}
+
+.container .c_header .ch_toolbar .cht_trx {
+  margin-right: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #393939;
+}
+
+.container .c_header .ch_toolbar .cht_nation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .c_header .ch_toolbar .cht_nation .chtn_circle {
+  height: 35px;
+  width: 35px;
+  position: relative;
+}
+
+.container .c_header .ch_toolbar .cht_nation .chtn_circle:before {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: calc(0.7 * 35px);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-image: url(./img/lang/en.png);
+  background-size: 160%;
+  background-position: center;
+}
+
+.container .c_header .ch_toolbar .cht_nation .ensign {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.container .c_header .ch_toolbar .cht_nation .arrow {
+  width: 11px;
+  height: 7px;
+}
+
+.container .c_middle .cm_top {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container .c_middle .cm_top .cmt_img {
+  width: 117px;
+  height: 80px;
+}
+
+.container .c_middle .cm_top .cmt_textio {
+  color: #E4023F;
+  font-size: 40px;
+  margin: 20px 0 10px 0;
+}
+
+.container .c_middle .cm_top .cmt_textEarn {
+  font-size: 16px;
+  color: #393939;
+}
+
+.container .c_middle .cm_top .cmt_boder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px auto;
+  background-color: white;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_img {
+  width: 63px;
+  height: 45px;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_single {
+  text-align: left;
+  padding: 0 30px;
+  border-right: 1px solid #CB0D40;
+  margin: 18px 0;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_single .cmtbs_text {
+  font-size: 16px;
+  color: #393939;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_single .cmtbs_number {
+  font-size: 30px;
+  color: #E4023F;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_total {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_total .cmtbt_text {
+  font-size: 16px;
+  color: #393939;
+}
+
+.container .c_middle .cm_top .cmt_boder .cmtb_total .cmtbt_number {
+  font-size: 30px;
+  color: #E4023F;
+}
+
+.container .c_middle .cm_top .cmt_textUse {
+  font-size: 16px;
+  color: #3A3A3A;
+}
+
+.container .c_middle .cm_top .cmt_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .c_middle .cm_top .cmt_link .cmtl_input {
+  width: 100%;
+}
+
+.container .c_middle .cm_top .cmt_link .cmtl_copy {
+  width: 45px;
+  height: 45px;
+  background-color: #E34557;
+  margin-left: 10px;
+}
+
+.container .c_middle .cm_contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .c_middle .cm_contain .cmc_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Style.css.map */
