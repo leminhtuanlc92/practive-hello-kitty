@@ -5,13 +5,28 @@ body {
     margin: 0;
     padding: 0;
 }
+.select {
+    width: 42%;
+    height: 44px;
+    background-color: #E03145;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 40px 0;
+}
+.select_text {
+    font-size: 16px;
+    color: #FFFFFF;
+}
 .container {
     background-color: #FFEDF5;
     .c_header {
         display: flex;
         justify-content: space-between;
-        width: 68.5%;
-        margin: 0 auto;
+        // width: 68.5%;
+        margin: 0 16%;
+        padding: 1.5% 0;
         // align-items: center;
         .ch_logo {
             
@@ -85,7 +100,7 @@ body {
         // width: 68.5%;
         
         .cm_top {
-            width: 40%;
+            // width: 40%;
             text-align: center;
             margin: 0 auto;
             .cmt_img {
@@ -148,6 +163,8 @@ body {
                 display: flex;
                 margin-top: 15px;
                 justify-content: center;
+                // width: 80%;
+                margin: 15px auto 0 auto;
                 .cmtl_input {
                     width: 100%;
                 }
@@ -159,14 +176,159 @@ body {
                 }
             }
         }
+        .select_all {
+            // padding: 0 12px;
+            width: 10%;
+            height: 44px;
+            background-color: #E03145;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 423px;
+            left: 50px;
+        }
         .cm_contain {
             display: flex;
+            // .cmc_left {
+            //     width: 16%;
+                
+            // }
             .cmc_right {
+                width: 68.5%;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: center;
                 align-items: center;
+                margin: 0 auto;
+                // justify-content: center;
+                // .cmcr_cat {
+                    
+                // }
+        //------------------common part cmc_right------------------//
+                .cmcr_boder {
+                    
+                    background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 100px;
+                    margin-right: 30px;
+                    border-radius: 5px;
+                    .circle {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background-color: #E34557;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        position: relative;
+                        top: -50px;
+                        // .circle_img {
+                            
+                        // }
+                    }
+                    .text {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #3C2B34;
+                    }
+                    .apy {
+                        display: flex;
+                        width: 75%;
+                        justify-content: space-between;
+                        background-color: #FFF0F2;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        margin: 30px 0 12px 0;
+                        border: 1px solid #FFC6CD;
+
+                        .a_text {
+                            color: #3C2B34;
+                            font-size: 16px;
+                            // margin-right: 170px;
+                        }
+                        .a_number {
+                            color: #E03145;
+                            font-size: 18px;
+                        }
+                    }
+                    .time {
+                        display: flex;
+                        width: 75%;
+                        justify-content: space-between;
+                        background-color: #FFF0F2;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        border: 1px solid #FFC6CD;
+
+                        .t_text {
+                            color: #3C2B34;
+                            font-size: 16px;
+                        }
+                        .t_number {
+                            color: #3C2B34;
+                            font-size: 16px;
+                        }
+                    }
+                }
+        //-----------------------End--------------------------//        
             }
         }
+    }
+    .c_footer {
+        background-color: #393939;
+        margin-top: 107px;
+        .cf_wrap {
+            display: flex;
+            width: 68.5%;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding: 30px 0;
+            .text {
+                color: #FFFFFF;
+                font-size: 16px;
+            }
+            .cfw_left {
+
+            }
+            .cfw_between {
+                display: flex;
+                
+                .text_smart {
+                    margin: 0 48px;
+                }
+            }
+            .cfw_right {
+                display: flex;
+                .twitter {
+                    margin: 0 45px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .cm_top {
+        width: 40%;
+    }
+
+    .cmcr_boder {
+        width: 30%;
+    }
+    
+}
+@media only screen and (max-width: 1199px) {
+    .cm_top {
+        width: 68%;
+    }
+    .cmcr_boder {
+        width: 70%;
+    }
+    .cmc_right {
+        // justify-content: center;
     }
 }

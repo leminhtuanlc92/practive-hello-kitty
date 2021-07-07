@@ -7,6 +7,28 @@ body {
   padding: 0;
 }
 
+.select {
+  width: 42%;
+  height: 44px;
+  background-color: #E03145;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0 40px 0;
+}
+
+.select_text {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
 .container {
   background-color: #FFEDF5;
 }
@@ -18,8 +40,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 68.5%;
-  margin: 0 auto;
+  margin: 0 16%;
+  padding: 1.5% 0;
 }
 
 .container .c_header .ch_logo .chl_img {
@@ -105,7 +127,6 @@ body {
 }
 
 .container .c_middle .cm_top {
-  width: 40%;
   text-align: center;
   margin: 0 auto;
 }
@@ -190,6 +211,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 15px auto 0 auto;
 }
 
 .container .c_middle .cm_top .cmt_link .cmtl_input {
@@ -203,6 +225,25 @@ body {
   margin-left: 10px;
 }
 
+.container .c_middle .select_all {
+  width: 10%;
+  height: 44px;
+  background-color: #E03145;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 423px;
+  left: 50px;
+}
+
 .container .c_middle .cm_contain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,16 +251,171 @@ body {
 }
 
 .container .c_middle .cm_contain .cmc_right {
+  width: 68.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 100px;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #E34557;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: -50px;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3C2B34;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .apy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #FFF0F2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 30px 0 12px 0;
+  border: 1px solid #FFC6CD;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .apy .a_text {
+  color: #3C2B34;
+  font-size: 16px;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .apy .a_number {
+  color: #E03145;
+  font-size: 18px;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #FFF0F2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #FFC6CD;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .time .t_text {
+  color: #3C2B34;
+  font-size: 16px;
+}
+
+.container .c_middle .cm_contain .cmc_right .cmcr_boder .time .t_number {
+  color: #3C2B34;
+  font-size: 16px;
+}
+
+.container .c_footer {
+  background-color: #393939;
+  margin-top: 107px;
+}
+
+.container .c_footer .cf_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 68.5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.container .c_footer .cf_wrap .text {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.container .c_footer .cf_wrap .cfw_between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .c_footer .cf_wrap .cfw_between .text_smart {
+  margin: 0 48px;
+}
+
+.container .c_footer .cf_wrap .cfw_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .c_footer .cf_wrap .cfw_right .twitter {
+  margin: 0 45px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cm_top {
+    width: 40%;
+  }
+  .cmcr_boder {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .cm_top {
+    width: 68%;
+  }
+  .cmcr_boder {
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=Style.css.map */
