@@ -22,14 +22,12 @@ body {
 }
 .container {
     background-color: #FFEDF5;
-    // width: 100%;
-    // height: 100%;
+    background-image: url("./img/Group\ 2994.svg");
     
     .c_middle {
         // width: 68.5%;
         
         .cm_top {
-            // width: 40%;
             text-align: center;
             margin: 0 auto;
             .cmt_img {
@@ -63,6 +61,9 @@ body {
                     height: 45px;
                     background-color: #E34557;
                     margin-left: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
                 }
             }
         }
@@ -77,9 +78,7 @@ body {
             align-items: center;
             margin-left: 26%;
             margin-top: 123%;
-            // position: relative;
-            // top: 423px;
-            // left: 50px;
+            
         }
         .cm_contain {
             display: flex;
@@ -113,9 +112,6 @@ body {
                         display: flex;
                         position: relative;
                         top: -50px;
-                        // .circle_img {
-                            
-                        // }
                     }
                     .text {
                         font-size: 18px;
@@ -191,6 +187,11 @@ body {
                 
             }
         }
+    }
+    //------------------HOVER----------------------//
+    .select:hover, .select_all:hover {
+        background-color: #f8d1e2;
+        // opacity: 1;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -277,7 +278,6 @@ body {
     }
     .top {
         display: flex;
-        // justify-content: space-between;
         align-items: center;
         .cmcr_staking {
             margin-right: 0;
@@ -289,8 +289,6 @@ body {
     .cmt_boder {
         display: flex;
         justify-content: center;
-        // width: 80%;
-        // height: 22%;
         align-items: center;
         margin: 40px auto;
         background-color: white;
@@ -348,10 +346,8 @@ body {
     .c_header {
         display: flex;
         justify-content: space-between;
-        // width: 68.5%;
         margin: 0 16%;
         padding: 1.5% 0;
-        // align-items: center;
         .ch_logo {
             
             .chl_img {
@@ -426,7 +422,6 @@ body {
     
     .top {
         display: flex;
-        // justify-content: space-between;
         align-items: center;
         .cmcr_staking {
             margin-right: 0;
@@ -442,8 +437,6 @@ body {
     .cmt_boder {
         display: flex;
         justify-content: center;
-        // width: 80%;
-        // height: 22%;
         align-items: center;
         margin: 40px auto;
         background-color: white;
