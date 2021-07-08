@@ -33,99 +33,6 @@ body {
   background-color: #FFEDF5;
 }
 
-.container .c_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 16%;
-  padding: 1.5% 0;
-}
-
-.container .c_header .ch_logo .chl_img {
-  width: 73px;
-  height: 50px;
-}
-
-.container .c_header .ch_toolbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container .c_header .ch_toolbar .cht_img {
-  width: 13px;
-  height: 10px;
-  margin-right: 4px;
-}
-
-.container .c_header .ch_toolbar .cht_home {
-  margin-right: 41px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #393939;
-}
-
-.container .c_header .ch_toolbar .cht_faq {
-  margin-right: 43px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #393939;
-}
-
-.container .c_header .ch_toolbar .cht_trx {
-  margin-right: 41px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #393939;
-}
-
-.container .c_header .ch_toolbar .cht_nation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container .c_header .ch_toolbar .cht_nation .chtn_circle {
-  height: 35px;
-  width: 35px;
-  position: relative;
-}
-
-.container .c_header .ch_toolbar .cht_nation .chtn_circle:before {
-  content: '';
-  position: absolute;
-  width: 70%;
-  height: calc(0.7 * 35px);
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background-image: url(./img/lang/en.png);
-  background-size: 160%;
-  background-position: center;
-}
-
-.container .c_header .ch_toolbar .cht_nation .ensign {
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-}
-
-.container .c_header .ch_toolbar .cht_nation .arrow {
-  width: 11px;
-  height: 7px;
-}
-
 .container .c_middle .cm_top {
   text-align: center;
   margin: 0 auto;
@@ -138,64 +45,12 @@ body {
 
 .container .c_middle .cm_top .cmt_textio {
   color: #E4023F;
-  font-size: 40px;
   margin: 20px 0 10px 0;
 }
 
 .container .c_middle .cm_top .cmt_textEarn {
   font-size: 16px;
   color: #393939;
-}
-
-.container .c_middle .cm_top .cmt_boder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 40px auto;
-  background-color: white;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_img {
-  width: 63px;
-  height: 45px;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_single {
-  text-align: left;
-  padding: 0 30px;
-  border-right: 1px solid #CB0D40;
-  margin: 18px 0;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_single .cmtbs_text {
-  font-size: 16px;
-  color: #393939;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_single .cmtbs_number {
-  font-size: 30px;
-  color: #E4023F;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_total {
-  text-align: left;
-  padding-left: 30px;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_total .cmtbt_text {
-  font-size: 16px;
-  color: #393939;
-}
-
-.container .c_middle .cm_top .cmt_boder .cmtb_total .cmtbt_number {
-  font-size: 30px;
-  color: #E4023F;
 }
 
 .container .c_middle .cm_top .cmt_textUse {
@@ -226,7 +81,7 @@ body {
 }
 
 .container .c_middle .select_all {
-  width: 10%;
+  width: 60%;
   height: 44px;
   background-color: #E03145;
   border-radius: 5px;
@@ -239,9 +94,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  top: 423px;
-  left: 50px;
+  margin-left: 26%;
+  margin-top: 123%;
 }
 
 .container .c_middle .cm_contain {
@@ -250,16 +104,14 @@ body {
   display: flex;
 }
 
+.container .c_middle .cm_contain .cmc_left {
+  width: 16%;
+}
+
 .container .c_middle .cm_contain .cmc_right {
-  width: 68.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin: 0 auto;
 }
 
@@ -279,8 +131,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 100px;
-  margin-right: 30px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .container .c_middle .cm_contain .cmc_right .cmcr_boder .circle {
@@ -359,6 +211,7 @@ body {
 .container .c_footer {
   background-color: #393939;
   margin-top: 107px;
+  width: 100%;
 }
 
 .container .c_footer .cf_wrap {
@@ -387,35 +240,436 @@ body {
   display: flex;
 }
 
-.container .c_footer .cf_wrap .cfw_between .text_smart {
-  margin: 0 48px;
-}
-
 .container .c_footer .cf_wrap .cfw_right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container .c_footer .cf_wrap .cfw_right .twitter {
-  margin: 0 45px;
-}
-
 @media only screen and (min-width: 1200px) {
+  .c_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 16%;
+    padding: 1.5% 0;
+  }
+  .c_header .ch_logo .chl_img {
+    width: 73px;
+    height: 50px;
+  }
+  .c_header .ch_toolbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c_header .ch_toolbar .cht_img {
+    width: 13px;
+    height: 10px;
+    margin-right: 4px;
+  }
+  .c_header .ch_toolbar .cht_home {
+    margin-right: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393939;
+  }
+  .c_header .ch_toolbar .cht_faq {
+    margin-right: 43px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393939;
+  }
+  .c_header .ch_toolbar .cht_trx {
+    margin-right: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393939;
+  }
+  .c_header .ch_toolbar .cht_nation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c_header .ch_toolbar .cht_nation .chtn_circle {
+    height: 35px;
+    width: 35px;
+    position: relative;
+  }
+  .c_header .ch_toolbar .cht_nation .chtn_circle:before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: calc(0.7 * 35px);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-image: url(./img/lang/en.png);
+    background-size: 160%;
+    background-position: center;
+  }
+  .c_header .ch_toolbar .cht_nation .ensign {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+  .c_header .ch_toolbar .cht_nation .arrow {
+    width: 11px;
+    height: 7px;
+  }
   .cm_top {
     width: 40%;
+  }
+  .cm_top .cmt_textio {
+    font-size: 40px;
+  }
+  .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top .cmcr_staking {
+    margin-right: 0;
+  }
+  .bott {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .cmt_boder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 40px auto;
+    background-color: white;
+  }
+  .cmt_boder .cmtb_img {
+    width: 63px;
+    height: 45px;
+  }
+  .cmt_boder .cmtb_single {
+    text-align: left;
+    padding: 0 30px;
+    border-right: 1px solid #CB0D40;
+    margin: 18px 0;
+  }
+  .cmt_boder .cmtb_single .cmtbs_text {
+    font-size: 16px;
+    color: #393939;
+  }
+  .cmt_boder .cmtb_single .cmtbs_number {
+    font-size: 30px;
+    color: #E4023F;
+  }
+  .cmt_boder .cmtb_total {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .cmt_boder .cmtb_total .cmtbt_text {
+    font-size: 16px;
+    color: #393939;
+  }
+  .cmt_boder .cmtb_total .cmtbt_number {
+    font-size: 30px;
+    color: #E4023F;
   }
   .cmcr_boder {
     width: 30%;
   }
+  .cmcr_boder {
+    margin-right: 30px;
+  }
+  .text_smart {
+    margin: 0 48px;
+  }
+  .twitter {
+    margin: 0 45px;
+  }
+  .c_menu {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199.5px) {
+  .c_menu {
+    display: none;
+  }
+  .c_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 16%;
+    padding: 1.5% 0;
+  }
+  .c_header .ch_logo .chl_img {
+    width: 73px;
+    height: 50px;
+  }
+  .c_header .ch_toolbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c_header .ch_toolbar .cht_img {
+    width: 13px;
+    height: 10px;
+    margin-right: 4px;
+  }
+  .c_header .ch_toolbar .cht_home {
+    margin-right: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393939;
+  }
+  .c_header .ch_toolbar .cht_faq {
+    margin-right: 43px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393939;
+  }
+  .c_header .ch_toolbar .cht_trx {
+    margin-right: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #393939;
+  }
+  .c_header .ch_toolbar .cht_nation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c_header .ch_toolbar .cht_nation .chtn_circle {
+    height: 35px;
+    width: 35px;
+    position: relative;
+  }
+  .c_header .ch_toolbar .cht_nation .chtn_circle:before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: calc(0.7 * 35px);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-image: url(./img/lang/en.png);
+    background-size: 160%;
+    background-position: center;
+  }
+  .c_header .ch_toolbar .cht_nation .ensign {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+  .c_header .ch_toolbar .cht_nation .arrow {
+    width: 11px;
+    height: 7px;
+  }
+  .cmt_textio {
+    font-size: 40px;
+  }
+  .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top .cmcr_staking {
+    margin-right: 0;
+  }
+  .bott {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .bott .cmcr_tulip {
+    margin-right: 30px;
+  }
+  .cmt_boder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 40px auto;
+    background-color: white;
+  }
+  .cmt_boder .cmtb_img {
+    width: 63px;
+    height: 45px;
+  }
+  .cmt_boder .cmtb_single {
+    text-align: left;
+    padding: 0 30px;
+    border-right: 1px solid #CB0D40;
+    margin: 18px 0;
+  }
+  .cmt_boder .cmtb_single .cmtbs_text {
+    font-size: 16px;
+    color: #393939;
+  }
+  .cmt_boder .cmtb_single .cmtbs_number {
+    font-size: 30px;
+    color: #E4023F;
+  }
+  .cmt_boder .cmtb_total {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .cmt_boder .cmtb_total .cmtbt_text {
+    font-size: 16px;
+    color: #393939;
+  }
+  .cmt_boder .cmtb_total .cmtbt_number {
+    font-size: 30px;
+    color: #E4023F;
+  }
   .cm_top {
     width: 68%;
   }
   .cmcr_boder {
-    width: 70%;
+    width: 30%;
+  }
+  .cmcr_boder {
+    margin-right: 30px;
+  }
+  .text_smart {
+    margin: 0 48px;
+  }
+  .twitter {
+    margin: 0 45px;
+  }
+  .cfw_between {
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 767.5px) {
+  .c_header {
+    display: none;
+  }
+  .c_menu .img_menu {
+    margin: 20px 0 0 20px;
+  }
+  .cmc_left {
+    display: none;
+  }
+  .cmt_boder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 40px auto;
+    background-color: white;
+  }
+  .cmt_boder .cmtb_img {
+    width: 63px;
+    height: 45px;
+  }
+  .cmt_boder .cmtb_single {
+    text-align: left;
+    padding: 0 30px;
+    margin: 18px 0;
+  }
+  .cmt_boder .cmtb_single .cmtbs_text {
+    font-size: 16px;
+    color: #393939;
+  }
+  .cmt_boder .cmtb_single .cmtbs_number {
+    font-size: 20px;
+    color: #E4023F;
+  }
+  .cmt_boder .cmtb_total {
+    text-align: left;
+  }
+  .cmt_boder .cmtb_total .cmtbt_text {
+    font-size: 16px;
+    color: #393939;
+  }
+  .cmt_boder .cmtb_total .cmtbt_number {
+    font-size: 20px;
+    color: #E4023F;
+  }
+  .top {
+    margin: 0 18px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bott {
+    margin: 0 18px;
+  }
+  .cmcr_boder {
+    margin-right: 0;
+  }
+  .text_smart {
+    margin: 0 10px;
+  }
+  .twitter {
+    margin: 0 10px;
+  }
+  .cm_top {
+    width: 94%;
+  }
+  .cm_top .cmt_textio {
+    font-size: 20px;
+  }
+  .cf_wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cf_wrap .cfw_between {
+    margin: 3px 0;
   }
 }
 /*# sourceMappingURL=Style.css.map */
