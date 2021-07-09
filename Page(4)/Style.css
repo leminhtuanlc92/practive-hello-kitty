@@ -1,7 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #393939;
+  color: #3C2B34;
 }
 
 body {
@@ -18,7 +18,6 @@ body {
 
 .container .c_middle {
   margin: 0 auto;
-  width: 56%;
   height: 38%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,6 +33,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 80px;
+  margin-bottom: 185px;
 }
 
 .container .c_middle .cm_tittle {
@@ -46,6 +47,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .container .c_middle .cm_tittle .cmt_text {
@@ -54,8 +57,180 @@ body {
 
 .container .c_middle .cm_tittle .cmt_text .text_big {
   color: #E03145;
-  font-size: 2rem;
   margin-bottom: 0.3rem;
+}
+
+.container .c_middle .cm_tittle .cmt_text .text_small {
+  color: #393939;
+}
+
+.container .c_middle .cm_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 79%;
+  height: 17%;
+  background-color: #FFF0F2;
+  border: 1px solid #FFC6CD;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.container .c_middle .cm_information .cmi_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+}
+
+.container .c_middle .cm_information .cmi_text .text_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .c_middle .cm_information .cmi_text .text_left .text {
+  margin-right: 2.5rem;
+}
+
+.container .c_middle .cm_information .cmi_text .text_left .number {
+  color: #E03145;
+}
+
+.container .c_middle .cm_information .cmi_text .text_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .c_middle .cm_information .cmi_text .text_right .text {
+  margin-right: 2.5rem;
+}
+
+.container .c_middle .cm_information .cmi_text .text_right .number {
+  font-weight: bold;
+}
+
+.container .c_middle .cm_information .cmi_recipe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.container .c_middle .cm_information .cmi_recipe .text_price {
+  margin-right: 2.5rem;
+}
+
+.container .c_middle .cm_information .cmi_recipe .recipe {
+  font-weight: bold;
+}
+
+.container .c_middle .cm_information .cmi_recipe .recipe .r_img {
+  width: 10px;
+  height: 10px;
+}
+
+.container .c_middle .cm_row {
+  width: 79%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .c_middle .cm_row .cmr_boder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #FFF0F2;
+  border: 1px solid #FFC6CD;
+  border-radius: 5px;
+}
+
+.container .c_middle .cm_row .cmr_boder .text {
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.container .c_middle .cm_row .cmr_boder .number {
+  color: #E03145;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.container .c_middle .cm_row .cmr_boder .boder_harvest {
+  background-color: #E34557;
+  margin-top: 1.1rem;
+  margin-bottom: 1.5rem;
+  width: 9.8rem;
+  height: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.container .c_middle .cm_row .cmr_boder .boder_harvest .harvest {
+  color: #FFFFFF;
+}
+
+.container .c_middle .cm_unstake {
+  width: 12.8rem;
+  height: 2.8rem;
+  background-color: #E34557;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 64px;
+}
+
+.container .c_middle .cm_unstake .cmu_text {
+  color: #FFFFFF;
 }
 
 .container .c_footer {
@@ -181,6 +356,15 @@ body {
     width: 11px;
     height: 7px;
   }
+  .c_middle {
+    width: 56%;
+  }
+  .c_middle .cmr_boder {
+    width: 32%;
+  }
+  .c_middle .cm_tittle .text_big {
+    font-size: 2rem;
+  }
   .c_footer .text_smart {
     margin: 0 48px;
   }
@@ -274,6 +458,15 @@ body {
     width: 11px;
     height: 7px;
   }
+  .c_middle {
+    width: 82%;
+  }
+  .c_middle .cmr_boder {
+    width: 32%;
+  }
+  .c_middle .cm_tittle .text_big {
+    font-size: 2rem;
+  }
   .c_footer .cfw_between {
     margin: 0 15px;
   }
@@ -291,6 +484,40 @@ body {
   }
   .c_menu .img_menu {
     margin: 20px 0 0 20px;
+  }
+  .c_middle {
+    width: 90%;
+  }
+  .c_middle .cm_tittle .text_big {
+    font-size: 1.3rem;
+  }
+  .c_middle .cm_information .cmi_text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .c_middle .cm_information .cmi_recipe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .c_middle .cm_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c_middle .cm_row .cmr_boder {
+    width: 60%;
+    margin-bottom: 2rem;
   }
   .c_footer .cf_wrap {
     -webkit-box-orient: vertical;
