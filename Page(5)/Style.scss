@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 100%;
     .c_middle {
-        width: 68.5%;
+        // width: 68.5%;
         background-color: #FFFFFF;
         border-radius: 5px;
         margin: 0 auto;
@@ -45,18 +45,18 @@ body {
                     .cmcrb_question {
                         display: flex;
                         justify-content: space-between;
+                        align-items: center;
                         border-top: 1px solid #FFC6CD;
 
                         .question_text {
-                            // color: #E03145;
                             font-weight: bold;
-                            margin-top: 0.75rem;
+                            margin-top: 0.9rem;
                             margin-bottom: 1rem;
                         }
-                        .question_img {
-                            margin-top: 0.75rem;
-                            margin-bottom: 1rem;
-                        }
+                        // .question_img {
+                        //     margin-top: 0.75rem;
+                        //     margin-bottom: 1rem;
+                        // }
                         .question_text:hover {
                             color: #E03145;
                         }
@@ -69,7 +69,7 @@ body {
                     }
                     .cmcrb_answer {
                         background-color: #FFF0F2;
-                        border-bottom: 1px solid #FFC6CD;
+                        // border-bottom: 1px solid #FFC6CD;
                         // width: 100%;
                         .answer_text {
                             // width: 94%;
@@ -80,6 +80,9 @@ body {
                         }
                     }
                 }
+            }
+            .row_last {
+                border-bottom: 1px solid #FFC6CD;               
             }
         }
     }
@@ -190,7 +193,9 @@ body {
             }
         }
     }
-   
+    .c_middle {
+        width: 68.5%;
+    }
     .c_footer {
         .text_smart {
             margin: 0 48px;
@@ -277,7 +282,9 @@ body {
             }
         }
     }
-
+    .c_middle {
+        width: 68.5%;
+    }
     .c_footer {
         .cfw_between {
             margin: 0 15px;
@@ -298,6 +305,9 @@ body {
         .img_menu {
             margin: 20px 0 0 20px;
         }
+    }
+    .c_middle {
+        width: 90%;
     }
     .c_footer {
         
